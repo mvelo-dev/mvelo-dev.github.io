@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Mvelo Mkhize</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="contact" class="animate__animated animate__fadeIn">
+    <h2>Get in Touch</h2>
+    <p>I’d love to hear from you! Whether it’s for a project, collaboration, or just to say hi, feel free to reach out.</p>
+
+    <div class="contact-form-container">
+      <form action="contact_form.php" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+
+    <h3>My Contact Details</h3>
+    <div class="contact-details">
+      <p><i class="fas fa-phone-alt"></i> <strong>Phone:</strong> (+27)082 229 4307</p>
+      <p><i class="fas fa-envelope"></i> <strong>Email:</strong> mkhizemvelo07@gmail.com</p>
+      <p><i class="fas fa-home"></i><strong>Address:</strong>Durban, KwaZulu-Natal</p>
+    </div>
+  </section>
+
+  <section id="resume-download" class="animate__animated animate__fadeIn">
+    <h2>Download My Resume</h2>
+    <a href="docs/Mvelo Mkhize CV.pdf" download class="btn">Download My CV</a>
+  </section>
+
+  <section id="social-media" class="animate__animated animate__fadeIn">
+    <h2>Connect with Me</h2>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/mvelo-mkhize-63a03a218/" class="btn">LinkedIn</a></li>
+      <li><a href="https://github.com/mvelo-dev" class="btn">GitHub</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2024 Mvelo Mkhize</p>
+  </footer>
+</body>
+</html>
